@@ -21,3 +21,22 @@ ul li a {
 ul li a:hover {
   color: #66ff66;
 }
+form {
+  width: 80%;
+}
+form label {
+  font-weight: bold;
+  text-align: right;
+  width: 10%;
+  display: inline-block;
+}
+form input[type=text],
+form input[type=email],
+form textarea {
+  margin-left: 10px;
+  vertical-align: top;
+}
+form textarea {
+  height: 200px;
+  width: 300px;
+}
